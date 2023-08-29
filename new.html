@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website for gym</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+
+<link rel = "stylesheet" href="css/style.css">
+<style>
+    body{
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/gym.jpg');
+    }
+    .left{
+        position: absolute;
+        left: 46px;
+        top: 20px;
+        display: inline-block;
+    /* border: 2px solid red; */
+    }
+    .left img{
+        width: 130px;
+    }
+    .left div{
+        text-align: center;
+        line-height: 33px;
+        font-size: 18px;;
+    }
+      .mid{
+        display: block;
+        
+        width: 39%;
+        margin: 29px auto;
+
+        /* border: 2px solid yellow; */
+    }
+    .right{
+        position: absolute;
+        right: 34px;
+        top: 30px;
+        display: inline-block;
+        /* border: 2px solid green; */
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline;
+        font-size: 18px;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 34px 15px;
+    }
+    .navbar li a:hover , .navbar li a:active {
+       text-decoration: underline;
+       color: gray;
+       
+    }
+    .btn{
+        font-family: 'Montserrat', sans-serif;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding :4px 14px;
+       border: 2px solid grey;
+       border-radius: 10px;
+       font-size: 20px;
+       cursor: pointer;
+
+    }
+    .btn:hover{
+        background-color: red;
+    }
+    .container{
+        /* border: 2px solid white; */
+        margin: 106px 80px;
+        padding: 120px;
+        width: 74%;
+        border-radius: 28px;
+    }
+    .container h1{
+        text-align: center;
+        margin: -100px -55px;
+        padding: 4px;
+        font-size: 99px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .container h3{
+        text-align: center;
+        /* margin: -100px -55px; */
+        padding: 90px;
+        font-size: 24px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .container button{
+        display: block;
+        width: 13%;
+        margin: 20px auto;
+        
+    
+    }
+    .btn1{
+        font-family: 'Montserrat', sans-serif;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding :4px 14px;
+        border: 1px solid #9e2a2a;
+        border-radius: 3px;
+       font-size: 20px;
+       cursor: pointer;
+       transition-duration: 0.4s;
+       ;
+
+    }
+    .btn1:hover{
+        background-color: gold;
+    }
+    
+    
+    
+    
+</style>
+<body>
+    <header class="header">
+        <!-- left box for logg -->
+      <div class="left">
+        <img src="img/logo gym.jpg" alt="" >
+        <div>People Fitness</div>
+      </div> 
+      <!-- mid box for navbar -->
+      <div class="mid">
+        <ul class="navbar">
+            <li><a href = "/" class = "active" >Home</a> </li>
+            <li><a href ="/about.html" >About us</a> </li>
+            <li><a href = "fitness.html" >Fitness Calculator</a></li>
+            <li><a href = "contact.html" >contact  us</a></li>
+        </ul>
+      </div> 
+      <!-- right box for buttons -->
+       <div class="right">
+        <buttons class="btn">Call Us</buttons>
+        <buttons class="btn">Email Us</buttons>
+      </div>
+    </header>
+    
+       <div class="container">
+        <h1>NO PAIN NO GAIN</h1>
+        <h3>having a perfect body requires a lot of training. Nice-looking body and powerful organism are interconnected – and we can help you with both.</h3>
+
+        <button class="btn1">Get Started</button>
+       </div>
+</body>
+</html>
